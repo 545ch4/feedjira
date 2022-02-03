@@ -10,6 +10,8 @@ module Feedjira
 
       element :"media:thumbnail", as: :image, value: :url
       element :"media:content", as: :image, value: :url
+      
+      elements :author, as: :authors, class: AtomEntryAuthor
     end
   end
 end
