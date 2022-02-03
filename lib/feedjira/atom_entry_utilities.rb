@@ -12,7 +12,7 @@ module Feedjira
         element :title, as: :title_type, value: :type
 
         element :name, as: :author
-        elements :name, as: :authors
+        elements :name, as: :authors, value: :name
         element :content
         element :summary
         element :enclosure, as: :image, value: :href
