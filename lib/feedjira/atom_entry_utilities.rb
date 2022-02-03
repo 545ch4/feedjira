@@ -12,7 +12,8 @@ module Feedjira
         element :title, as: :title_type, value: :type
 
         element :name, as: :author
-        elements :name, as: :authors, value: :name
+        elements :author, as: :authors
+        elements :name, as: :author_names
         element :content
         element :summary
         element :enclosure, as: :image, value: :href
