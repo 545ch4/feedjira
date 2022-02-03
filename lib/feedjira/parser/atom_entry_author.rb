@@ -5,7 +5,7 @@ module Feedjira
     # Parser for dealing with Atom feed authors.
     class AtomEntryAuthor
       include SAXMachine
-      element :name, as: :name
+      element :name
     end
   end
 end
